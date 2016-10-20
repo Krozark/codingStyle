@@ -82,7 +82,7 @@ example
 --------
 
 ```C
-structstyle_MyStructName_t
+struct style_MyStructName_t
 {
 	//...
 };
@@ -97,7 +97,7 @@ example
 --------
 
 ```C
-typedef style_MyStructName_t style_MyStructName;
+typedef struct style_MyStructName_t style_MyStructName;
 ```
 
 const +  macros + enum
