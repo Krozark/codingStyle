@@ -1,7 +1,67 @@
 namespace
 =========
 
-All the following type/functions names will be prefix using a namespace define by the project name. Here we will use "style" 
+All the following type/functions names will be prefix using a namespace define by the project name. Here we will use "style"
+
+files extention + content
+=====
+
+Extention are .h for header and .c for implementation.
+
+Each header file must contain a guard as follow: 
+
+```C
+#ifndef <namespace>_FILE_IDENTIFIER_NAME_H
+#define <namespace>_FILE_IDENTIFIER_NAME_H
+
+//... code
+
+#endif //guard
+```
+
+All function are in a extern "C" block for a library.
+
+example
+--------
+
+functions.h
+```C
+#ifndef style_FUNCTIONS_H
+#define style_FUNCTIONS_H
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+	void style_funstion();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
+```
+
+functions.c
+```C
+#include "function.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+	void style_funstion()
+	{
+		// code go here
+	}
+
+#ifdef __cplusplus
+}
+#endif
+```
+
 
 functions
 ========
