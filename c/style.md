@@ -34,7 +34,7 @@ extern "C"
 {
 #endif
 
-	void style_funstion();
+void style_funstion();
 
 #ifdef __cplusplus
 }
@@ -52,10 +52,10 @@ extern "C"
 {
 #endif
 
-	void style_funstion()
-	{
-		// code go here
-	}
+void style_funstion()
+{
+	// code go here
+}
 
 #ifdef __cplusplus
 }
@@ -130,5 +130,56 @@ enum style_MY_ENUM
 	style_MY_ENUM_VALUE_3,
 	style_MY_ENUM_SIZE
 };
+```
+
+Indentation
+===========
+
+A correct indentation must be used
+
+control struct (if, else, while, for, do, switch)
+=================================================
+
+All control struct must create there own block (using "{" ).
+if statement are split into separate line for the test and the code to execute
+
+switch satement must contain a default.
+
+example
+-------
+
+```C
+if (my_var == other_var)
+{
+	//...
+}
+else
+{
+	//...
+}
+
+while(whatever)
+{
+	//...
+}
+
+switch (mv_var)
+{
+	case 1:
+	{
+		//...
+	}break;
+	case 2:
+	{
+		//...
+	}break;
+	case 3:
+	{
+		//...
+	}break;
+	default:
+	{
+	}
+}
 ```
 
