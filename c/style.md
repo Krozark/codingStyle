@@ -40,7 +40,7 @@ example
 typedef style_MyStructName_t style_MyStructName;
 ```
 
-Constante (macros) + enum
+const +  macros + enum
 ==================
 
 all in upper snake case
@@ -49,6 +49,7 @@ example
 -------
 
 ```C
+#define style_PI 3.1415 
 #define style_THIS_IS_A_MACRO(x)
 ```
 
