@@ -1,10 +1,12 @@
 namespace
 =========
-all the following type/functions names will be prefix using a namespace define by the project name. Here we will use "style" 
+
+All the following type/functions names will be prefix using a namespace define by the project name. Here we will use "style" 
 
 functions
 ========
-name are in camelCase
+
+Name are in camelCase
 	
 example
 --------
@@ -13,7 +15,8 @@ void style_myFunction(int);
 	
 struct
 ======
-name are in CamelCase and suffix with _t
+
+Name are in CamelCase and suffix with _t
 	
 example
 --------
@@ -52,8 +55,7 @@ example
 enum values
 ===========
 
-all in upper snake case prefixed with the enum name
-the enum should olso contain a special value named \<enum name\>_SIZE at the end.
+all in upper snake case prefixed with the enum name the enum should also contain a special value named SIZE at the end.
 	
 	
 example
