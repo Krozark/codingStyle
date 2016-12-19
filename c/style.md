@@ -1,3 +1,8 @@
+Indentation
+===========
+
+Allman style is used
+
 namespace
 =========
 
@@ -131,11 +136,6 @@ enum style_MY_ENUM
 	style_MY_ENUM_SIZE
 };
 ```
-
-Indentation
-===========
-
-A correct indentation must be used
 
 control struct (if, else, while, for, do, switch)
 =================================================
