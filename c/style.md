@@ -6,7 +6,7 @@ Allman style is used
 namespace
 =========
 
-All the following type/functions names will be prefix using a namespace define by the project name. Here we will use "style"
+All the following type/functions names will be prefix using a namespace define by the project name.
 
 files extention + content
 =====
@@ -31,15 +31,15 @@ example
 
 functions.h
 ```C
-#ifndef style_FUNCTIONS_H
-#define style_FUNCTIONS_H
+#ifndef <namespace>_FUNCTIONS_H
+#define <namespace>_FUNCTIONS_H
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-void style_funstion();
+void <namespace>_function();
 
 #ifdef __cplusplus
 }
@@ -57,7 +57,7 @@ extern "C"
 {
 #endif
 
-void style_funstion()
+void <namespace>_function()
 {
 	// code go here
 }
@@ -76,7 +76,7 @@ Name are in camelCase
 example
 --------
 	
-void style_myFunction(int);
+void <namespace>_myFunction(int);
 	
 struct
 ======
@@ -87,7 +87,7 @@ example
 --------
 
 ```C
-struct style_MyStructName_t
+struct <namespace>_MyStructName_t
 {
 	//...
 };
@@ -102,7 +102,7 @@ example
 --------
 
 ```C
-typedef struct style_MyStructName_t style_MyStructName;
+typedef struct <namespace>_MyStructName_t <namespace>_MyStructName;
 ```
 
 const +  macros + enum
@@ -114,8 +114,8 @@ example
 -------
 
 ```C
-#define style_PI 3.1415 
-#define style_THIS_IS_A_MACRO(x)
+#define <namespace>_PI 3.1415 
+#define <namespace>_THIS_IS_A_MACRO(x)
 ```
 
 enum values
@@ -128,12 +128,12 @@ example
 -------
 
 ```C
-enum style_MY_ENUM
+enum <namespace>_MY_ENUM
 {
-	style_MY_ENUM_VALUE_1,
-	style_MY_ENUM_VALUE_2,
-	style_MY_ENUM_VALUE_3,
-	style_MY_ENUM_SIZE
+	<namespace>_MY_ENUM_VALUE_1,
+	<namespace>_MY_ENUM_VALUE_2,
+	<namespace>_MY_ENUM_VALUE_3,
+	<namespace>_MY_ENUM_SIZE
 };
 ```
 
