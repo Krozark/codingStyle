@@ -1,7 +1,8 @@
 Indentation
 ===========
 
-Allman style is used
+Use 4 spaces to indente and no tabs.
+Moreover Allman style is used (https://en.wikipedia.org/wiki/Indentation_style#Allman_style)
 
 namespace
 =========
